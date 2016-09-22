@@ -571,6 +571,10 @@ var RevealMenu = window.RevealMenu || (function(){
 					else if (element.src) {
 						loadCustomPanelContent(panel, element.src);
 					}
+
+					if (element.script) {
+						loadResource( element.script, "script", null );
+					}
 					panel.appendTo(panels);
 				})
 			}
