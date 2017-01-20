@@ -209,15 +209,15 @@
 }
 
 .reveal .slide-menu-custom-panel {
-	width: calc(100% - 20px);
-	padding-left: 10px;
-	padding-right: 10px;
+	width: calc(100%x);
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .reveal .slide-menu-custom-panel .slide-menu-items {
-	width: calc(100% + 20px);
-	margin-left: -10px;
-	margin-right: 10px;
+	width: calc(100%);
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
  
